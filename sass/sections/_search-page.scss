@@ -1,0 +1,17 @@
+/*
+--------------------------------------------------------------------------
+3.6 Search page
+--------------------------------------------------------------------------
+*/
+.s {
+    margin-top: 3rem;
+
+    &__heading {
+        font-size: 3rem;
+        font-weight: 800
+    }
+    &__result {
+        font-weight: normal;
+        text-transform: uppercase;
+    }
+}

@@ -1,0 +1,142 @@
+/* 
+--------------------------------------------------------------------------
+2.4 Comments
+--------------------------------------------------------------------------
+ */
+.comment-title {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.comment-navigation {
+    text-align: center;
+    padding-top: 1rem;
+    color: $dark-purple;
+    border-top: 1px solid lightgrey;
+    border-bottom: 1px solid lightgray;
+    margin-bottom: 5rem;
+    margin-top: 3rem;
+
+    p {
+        font-size: 1.4rem;
+        text-transform: uppercase;
+        font-weight: 900;
+    }
+}
+
+#comment {
+    margin-top: 0;
+    font-size: 1.8rem
+}
+
+
+
+ul.comment-list {
+    font-size: 1.6rem;
+    list-style-type: none;
+    a {
+        color: $dark-purple;
+        text-decoration: none;
+    }
+}
+
+.comment-reply-title {
+    text-transform: uppercase;
+    color: $dark-purple;
+    font-weight: 900;
+}
+
+.comment-notes {
+    margin-bottom: 3rem
+}
+
+
+.comment-form-area, .form-group {
+    label, input {
+        font-size: 1.5rem;
+        text-transform: uppercase;
+        color: $dark-purple;
+        
+        
+    }
+
+    label {
+        font-weight: 900;
+    }
+
+    input {
+        margin-bottom: 3rem
+    }
+
+    input#wp-comment-cookies-consent + label {
+        font-weight: 100;
+        font-size: 1.2rem;
+        margin-left: 1rem
+    }
+
+    #submit {
+        color: #fff
+    }
+
+}
+
+.comment-form-cookies-consent {
+    display: flex;
+    align-items: baseline;
+    input{
+        margin-right: 1rem
+    }
+}
+
+.arrow-navigation a, .arrow-navigation--2 a {
+    display: inline-block;
+    font-size: 3.2rem;
+    color: $dark-purple;
+    transition: transform 0.4s;
+}
+
+.arrow-navigation a:hover {
+        text-decoration: none;
+        transform: translateX(-10px)
+    }
+
+.arrow-navigation--2 a:hover {
+        text-decoration: none;
+        transform: translateX(10px)
+    }
+
+
+
+
+
+
+.reply {
+    margin-bottom: 4rem;
+    text-transform: uppercase;
+    position: relative;
+    display: inline-block;
+    font-weight: 900;
+    
+
+    a:hover {
+        text-decoration: none;
+    }
+    
+
+     
+
+    &:after{
+        content: "";
+        position: absolute;
+        bottom: -4px;
+        left: 0;
+        background: $dark-purple;
+        width: 0%;
+        height: 3px;
+        transition: width 0.4s ease-in-out;
+    } 
+
+    &:hover:after {
+        width: 100%;
+    }   
+}

@@ -1,0 +1,30 @@
+/*
+--------------------------------------------------------------------------
+3.2 Single
+--------------------------------------------------------------------------
+*/
+.s-post {
+    margin-top: 5rem;
+    margin-bottom: 7rem;
+    &__img {
+        margin: 3rem 0;
+        border-radius: 3px
+    }
+
+    &__title {
+        font-size: 3rem;
+        font-weight: bold;
+        text-transform: uppercase;
+        margin-bottom: 3rem;
+    }
+
+    &__date {
+        font-size: 1.4rem;
+        font-style: italic;
+    }
+
+    &__category {
+        display: inline-block;
+        margin-left: 2rem
+    }
+}

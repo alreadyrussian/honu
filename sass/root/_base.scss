@@ -1,0 +1,45 @@
+/* 
+--------------------------------------------------------------------------
+1.Base 
+--------------------------------------------------------------------------
+*/ 
+html {
+    @include noScroll;
+    scroll-behavior: smooth;
+    // 10px based on 10/16 px
+    font-size:62.5%;
+    @import url('https://fonts.googleapis.com/css?family=Lato:700');
+    @include respond(phone){
+        font-size: 55% // 1 rem = 8 px => 8/16 = 0.5 
+    }
+
+}
+
+@include respond(big-desktop){
+    .container {
+        max-width: 144rem
+    }
+}
+
+body {
+    @include noScroll;
+}
+
+
+p {
+    font-size: 1.8rem;
+}
+
+a{
+    color: $light-purple;
+    text-decoration: none;
+    transition: all .3s;
+    &:hover {
+        text-decoration: none;
+        color: $dark-purple;
+    }
+}
+
+ul {
+    font-size: 1.8rem
+}

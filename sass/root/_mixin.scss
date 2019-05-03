@@ -1,0 +1,33 @@
+@mixin respond($breakpoint) {
+    @if $breakpoint == phone {
+        @media (max-width: 37.5em) {@content};
+    } 
+    @if $breakpoint == phone-hr {
+        @media (max-width: 48em) and (orientation: landscape) {@content};
+    } 
+    @if $breakpoint == tab-port {
+        @media (max-width: 61.937em) {@content};
+    }
+    @if $breakpoint == laptop {
+        @media (max-width: 68.8em) {@content};
+    }
+    @if $breakpoint == tab-land {
+        @media (max-width: 71.25em) {@content};
+    }
+    @if $breakpoint == video {
+        @media (max-width: 100em) {@content};
+    }
+    @if $breakpoint == big-desktop {
+        @media (min-width: 112.5em) {@content};
+    }
+}
+
+@mixin noScroll {
+    overflow-x: hidden;
+    position:relative;
+}
+
+
+@mixin paddingSection {
+    padding-top: $padding-section;
+}

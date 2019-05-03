@@ -1,0 +1,46 @@
+/*
+--------------------------------------------------------------------------
+3.4 Sidebar
+--------------------------------------------------------------------------
+*/
+.widget-wrapper {
+    font-size: 1.7rem;
+    padding-left: 1rem;
+    margin-top: 3rem;
+
+    input[type="search"] {
+        border: 1px solid #d3d3d3;
+    }
+
+    p {
+        text-transform: uppercase;
+        color: #111;
+        font-weight: bold;
+    }
+
+    ul {
+        list-style-type: none;
+        padding-left: 0
+    }
+
+    a {
+        
+        font-weight: 600;
+        color: $light-purple;
+        transition-duration: 0.5s;
+    }
+
+    a:hover {
+        color: $dark-purple;
+        text-decoration: none
+    }
+}
+
+.recentcomments{
+    color: rgb(97, 97, 97)
+}
+
+/* wp-calendar*/
+#wp-calendar {
+    width: 100%
+}

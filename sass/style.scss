@@ -1,0 +1,78 @@
+/*
+    Theme Name: Honu
+    Theme URI: http://localhost/awesome-wordpress
+    Author: AlreadyRussian
+    Description: Theme based on Twitter Bootstrap 4. Highly customizable, perfect for landing page.
+    Version: 0.0.1
+    License: GNU General Public License v2 or later
+    License URI: http://www.gnu.org/licenses/gpl-2.0.html
+    Text Domain: honu 
+    Tags: two-columns, blog
+*/
+
+/* CSS INDEX
+
+    1. Base
+
+    2. Components
+      2.1 Buttons
+      2.2 Animations
+      2.3 Headings
+      2.4 Comments
+      2.5 Search Form
+      2.6 Pagination
+      2.7 Default WP Style
+
+    3. Sections
+      3.1 Navigation
+      3.2 Single
+      3.3 Index
+      3.4 Sidebar
+      3.5 404
+      3.6 Search page
+      3.7 Archive
+      3.8 Footer
+      
+    4. Landing Page Layout
+      4.1 Hero
+      4.2 Service
+      4.3 Video
+      4.4 Cta
+      4.5 Reviews
+      4.6 News
+      4.7 Contact
+
+    5. Responsive rules
+
+*/
+
+
+@import "../sass/root/variables";
+@import "../sass/root/mixin";
+@import "../sass/root/base";
+@import "../sass/components/button";
+@import "../sass/components/animation";
+@import "../sass/components/headings";
+@import "../sass/components/comments";
+@import "../sass/components/search-form";
+@import "../sass/components/nav-link";
+@import "../sass/components/wpcore";
+@import "../sass/sections/header";
+@import "../sass/sections/single";
+@import "../sass/sections/index";
+@import "../sass/sections/sidebar";
+@import "../sass/sections/404";
+@import "../sass/sections/search-page";
+@import "../sass/sections/archive";
+@import "../sass/sections/footer";
+@import "../sass/landing/hero-section";
+@import "../sass/landing/services";
+@import "../sass/landing/videosection";
+@import "../sass/landing/cta";
+@import "../sass/landing/reviews";
+@import "../sass/landing/news";
+@import "../sass/landing/contact";
+@import "../sass/components/mediaquery";
+
+
+

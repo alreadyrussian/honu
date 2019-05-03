@@ -1,0 +1,46 @@
+/*
+--------------------------------------------------------------------------
+2.5 Search form 
+--------------------------------------------------------------------------
+*/
+.search-custom {
+    overflow: hidden;
+    font-size: 1.7rem;
+}
+
+
+.search-custom__submit {
+    display: none
+}
+
+.search-custom__input {
+    background: rgb(235, 235, 235);
+    border: none!important;
+    outline: none;
+    transition: all .4s;
+    width: 50%;
+    margin: 0 -3.5rem 0 0;
+   
+
+    &:focus {
+        background: rgb(218, 218, 218);
+        outline: none;
+        border: none;
+        width: 60%;
+    }
+
+    &::-webkit-input-placeholder{
+        font-weight: 100;
+        color: rgb(236, 236, 236);
+    }
+    &:focus + i {
+        transition: all .5s .4s;
+        transform: translateY(80px)
+    }
+}
+
+.search-custom__icon {
+    color: $dark-purple;
+    transform: translateY(0px);
+    transition: all .5s .4s;
+}

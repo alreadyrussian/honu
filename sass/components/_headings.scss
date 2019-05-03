@@ -1,0 +1,20 @@
+/* 
+--------------------------------------------------------------------------
+2.3 Headings 
+--------------------------------------------------------------------------
+ */
+.title {
+    font-size: 4.5rem;
+    font-weight: bold;
+    color: $dark-purple;
+    text-align: center;
+    margin-top: 11rem
+}
+
+.title + hr {
+    width: 5rem;
+    margin: 0 auto;
+    border: 2px solid $light-purple;
+}
+
+

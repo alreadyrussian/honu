@@ -1,0 +1,14 @@
+/* CSS API CUSTOMIZE  REVIEWS SECTION */
+#customize-control-honu_headline_control_review_1 > label:nth-child(1),
+#customize-control-honu_headline_control_review_2 > label:nth-child(1),
+#customize-control-honu_headline_control_review_3 > label:nth-child(1) {
+    text-transform: uppercase;
+    background: rgb(184, 148, 206);
+    padding: 5px;
+}
+
+#customize-control-honu_control_image_scroll_reviews > label {
+    text-transform: uppercase;
+    background: rgb(148, 163, 206);
+    padding: 5px;
+}

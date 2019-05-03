@@ -1,0 +1,418 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2019-04-29 18:32+0200\n"
+"PO-Revision-Date: 2019-04-29 18:33+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en_001\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.1\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: _e;__;_nx;_x;esc_attr_x;esc_html__\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: 404.php:15
+msgid "Oops! That page can&rsquo;t be found."
+msgstr ""
+
+#: 404.php:19
+msgid "It looks like nothing was found at this location. Maybe try a search?"
+msgstr ""
+
+#: archive.php:39 search.php:36
+msgid "There&rsquo;s nothing yet to be displayed!"
+msgstr ""
+
+#: class-wp-bootstrap-navwalker.php:366
+msgid "Add a menu"
+msgstr ""
+
+#: comments.php:29
+#, php-format
+msgid "One Reply to &ldquo;%s&rdquo;"
+msgstr ""
+
+#: comments.php:34
+#, php-format
+msgid "%1$s Reply to &ldquo;%2$s&rdquo;"
+msgstr ""
+
+#: comments.php:98
+msgid "Name"
+msgstr ""
+
+#: comments.php:105
+msgid "Email"
+msgstr ""
+
+#: comments.php:111
+msgid "Website"
+msgstr ""
+
+#: comments.php:123
+msgid "Submit Comment"
+msgstr ""
+
+#: comments.php:127
+msgid "Comment"
+msgstr ""
+
+#: footer.php:10
+msgid "Made with"
+msgstr ""
+
+#: functions.php:69
+msgid "Primary Menu"
+msgstr ""
+
+#: functions.php:141
+msgid "Blog Sidebar"
+msgstr ""
+
+#: functions.php:143
+msgid "This is the Blog Sidebar. Place your widgets here"
+msgstr ""
+
+#: functions.php:153
+msgid "Single post Sidebar"
+msgstr ""
+
+#: functions.php:155
+msgid "This is the Single Post Sidebar. Place your widgets here"
+msgstr ""
+
+#: inc/contact.php:4
+msgid "6. Contact section"
+msgstr ""
+
+#: inc/contact.php:5 inc/cta.php:5 inc/services.php:5 inc/video.php:5
+msgid "Description"
+msgstr ""
+
+#: inc/contact.php:20 inc/cta.php:20 inc/reviews.php:22 inc/services.php:21
+#: inc/video.php:23
+msgid "Display"
+msgstr ""
+
+#: inc/contact.php:24 inc/cta.php:24 inc/services.php:25 inc/video.php:27
+msgid "No"
+msgstr ""
+
+#: inc/contact.php:24 inc/cta.php:24 inc/services.php:25 inc/video.php:27
+msgid "Yes"
+msgstr ""
+
+#: inc/contact.php:36 inc/cta.php:36 inc/video.php:76
+msgid "Image Background"
+msgstr ""
+
+#: inc/contact.php:45
+msgid "Shortcode"
+msgstr ""
+
+#: inc/contact.php:52
+msgid "Put the contact form 7 shortcode"
+msgstr ""
+
+#: inc/contact.php:60
+msgid "Title Contact Section"
+msgstr ""
+
+#: inc/contact.php:66 inc/cta.php:51
+msgid "Headline"
+msgstr ""
+
+#: inc/contact.php:75
+msgid "Headline contact right side"
+msgstr ""
+
+#: inc/contact.php:81
+msgid "Information"
+msgstr ""
+
+#: inc/contact.php:90
+msgid "SubHeadline contact right side"
+msgstr ""
+
+#: inc/contact.php:96
+msgid "How to reach us"
+msgstr ""
+
+#: inc/contact.php:106 inc/contact.php:137 inc/contact.php:167
+#: inc/reviews.php:98 inc/reviews.php:207 inc/reviews.php:316
+msgid "fab fa-instagram"
+msgstr ""
+
+#: inc/contact.php:112
+msgid "Social Icon Contact 1"
+msgstr ""
+
+#: inc/contact.php:121
+msgid "Arched Rock Beach, California"
+msgstr ""
+
+#: inc/contact.php:127 inc/contact.php:157 inc/contact.php:188
+msgid "Put your text here"
+msgstr ""
+
+#: inc/contact.php:143
+msgid "Social Icon Contact 2"
+msgstr ""
+
+#: inc/contact.php:151
+msgid "+1-202-555-0179"
+msgstr ""
+
+#: inc/contact.php:173
+msgid "Social Icon Contact 3"
+msgstr ""
+
+#: inc/contact.php:182
+msgid "info@honu.com"
+msgstr ""
+
+#: inc/cta.php:4
+msgid "4. CTA section"
+msgstr ""
+
+#: inc/cta.php:45
+msgid "Title CTA Section"
+msgstr ""
+
+#: inc/cta.php:60
+msgid "Example Paragraph CTA"
+msgstr ""
+
+#: inc/cta.php:66 inc/video.php:107
+msgid "Paragraph"
+msgstr ""
+
+#: inc/cta.php:82
+msgid "Button cta section"
+msgstr ""
+
+#: inc/customizer.php:12
+msgid "Customize your landing page"
+msgstr ""
+
+#: inc/customizer.php:13
+msgid "Adjust your components as you wish."
+msgstr ""
+
+#: inc/hero.php:4
+msgid "1. Hero section"
+msgstr ""
+
+#: inc/hero.php:5
+msgid "Hero Section"
+msgstr ""
+
+#: inc/hero.php:14
+msgid "Title Hero Section"
+msgstr ""
+
+#: inc/hero.php:20
+msgid "Headline Hero Section"
+msgstr ""
+
+#: inc/hero.php:30
+msgid "Hero Section Text"
+msgstr ""
+
+#: inc/hero.php:36 inc/video.php:42 inc/video.php:92
+msgid "Headline General Section"
+msgstr ""
+
+#: inc/hero.php:52
+msgid "Button Hero section"
+msgstr ""
+
+#: inc/reviews.php:4
+msgid "5. Reviews section"
+msgstr ""
+
+#: inc/reviews.php:5
+msgid "Insert the reviews of your customers"
+msgstr ""
+
+#: inc/reviews.php:33 inc/video.php:36
+msgid "Title General Section Text"
+msgstr ""
+
+#: inc/reviews.php:39
+msgid "Headline Reviews Section"
+msgstr ""
+
+#: inc/reviews.php:52 inc/reviews.php:268 inc/services.php:50
+#: inc/services.php:104 inc/services.php:161
+msgid "Headline Service Text"
+msgstr ""
+
+#: inc/reviews.php:57
+msgid "1.Headline for the first section review"
+msgstr ""
+
+#: inc/reviews.php:74
+msgid "Image review 1"
+msgstr ""
+
+#: inc/reviews.php:83
+msgid "Example Paragraph"
+msgstr ""
+
+#: inc/reviews.php:89
+msgid "Paragraph Review 1"
+msgstr ""
+
+#: inc/reviews.php:104 inc/reviews.php:119
+msgid "Social Icon Review 1"
+msgstr ""
+
+#: inc/reviews.php:113 inc/reviews.php:222 inc/reviews.php:331
+msgid "fab fa-linkedin"
+msgstr ""
+
+#: inc/reviews.php:133 inc/reviews.php:242 inc/reviews.php:350
+msgid "Place url for your first social icon with https protocol"
+msgstr ""
+
+#: inc/reviews.php:146 inc/reviews.php:255 inc/reviews.php:363
+msgid "Place url for your second social icon with https protocol"
+msgstr ""
+
+#: inc/reviews.php:159
+msgid "Headline Review Text 2"
+msgstr ""
+
+#: inc/reviews.php:164
+msgid "2. Headline for the second section review"
+msgstr ""
+
+#: inc/reviews.php:178
+msgid "Image review 2"
+msgstr ""
+
+#: inc/reviews.php:189 inc/reviews.php:299 inc/services.php:81
+#: inc/services.php:134 inc/services.php:192 inc/video.php:101
+msgid "Example Paragraph Service"
+msgstr ""
+
+#: inc/reviews.php:195
+msgid "Paragraph Review 2"
+msgstr ""
+
+#: inc/reviews.php:213 inc/reviews.php:228
+msgid "Social Icon Review 2"
+msgstr ""
+
+#: inc/reviews.php:273
+msgid "3. Headline for the third section service"
+msgstr ""
+
+#: inc/reviews.php:289
+msgid "Image review 3"
+msgstr ""
+
+#: inc/reviews.php:305 inc/services.php:198
+msgid "Paragraph Service 3"
+msgstr ""
+
+#: inc/reviews.php:322 inc/reviews.php:337
+msgid "Social Icon Review 3"
+msgstr ""
+
+#: inc/reviews.php:377
+msgid "Image Scroll Effect"
+msgstr ""
+
+#: inc/services.php:4
+msgid "2. Services section"
+msgstr ""
+
+#: inc/services.php:34
+msgid "SURF"
+msgstr ""
+
+#: inc/services.php:40
+msgid "Text below General Section"
+msgstr ""
+
+#: inc/services.php:55
+msgid "Headline for the first section service"
+msgstr ""
+
+#: inc/services.php:72
+msgid "Image service 1"
+msgstr ""
+
+#: inc/services.php:87
+msgid "Paragraph Service 1"
+msgstr ""
+
+#: inc/services.php:109
+msgid "Headline for the second section service"
+msgstr ""
+
+#: inc/services.php:123
+msgid "Image service 2"
+msgstr ""
+
+#: inc/services.php:140
+msgid "Paragraph Service 2"
+msgstr ""
+
+#: inc/services.php:166
+msgid "Headline for the third section service"
+msgstr ""
+
+#: inc/services.php:182
+msgid "Image service 3"
+msgstr ""
+
+#: inc/video.php:4
+msgid "3. Video section"
+msgstr ""
+
+#: inc/video.php:58
+msgid "Place url youtube video"
+msgstr ""
+
+#: inc/video.php:86
+msgid "SubTitle General Section Text"
+msgstr ""
+
+#: inc/video.php:123
+msgid "Button video section"
+msgstr ""
+
+#: index.php:37 search.php:30
+msgid "<< Newer"
+msgstr ""
+
+#: index.php:38 search.php:31
+msgid "Older >>"
+msgstr ""
+
+#: searchform.php:12
+msgid "Search for:"
+msgstr ""
+
+#: searchform.php:15
+msgid "Search &hellip;"
+msgstr ""
+
+#: searchform.php:17
+msgid "Search"
+msgstr ""
+
+#: template-parts/inc/honu-comment-nav.php:5
+msgid "&#8672; "
+msgstr ""
+
+#: template-parts/inc/honu-comment-nav.php:6
+msgid "&#8674;"
+msgstr ""

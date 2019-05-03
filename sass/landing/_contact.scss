@@ -1,0 +1,138 @@
+/*
+--------------------------------------------------------------------------
+4.7 Contact
+--------------------------------------------------------------------------
+*/
+.outer-contact {
+    @include respond(tab-port){
+        padding: 0 2rem
+    }
+}
+
+
+.title-contact {
+    font-size: 4.5rem;
+    font-weight: bold;
+    color: $dark-purple;
+    margin-top: 6rem
+}
+
+.title-contact + hr {
+    width: 5rem;
+    border: 2px solid $light-purple;
+    margin-left: 2px;
+    margin-bottom: 50px;
+    display: inline-block
+}
+
+.contact {
+    margin-top: 9rem;
+    box-shadow: 2px 2px 29px -10px rgba(123, 97, 255, 0.57);
+
+    &__section--1 {
+        background-color: #F3F3F3;
+        padding-left: 50px;
+        @include respond(tab-port){
+            padding-left: 10px
+         }
+    }
+
+    &__section--2 {
+        background-color: #6E4BFE;
+        @include respond(tab-port){
+            padding-bottom: 50px
+         }
+    }
+
+    &__section-inner {
+        display: flex;
+        margin-left: 3rem;
+        align-items: center;
+        padding-bottom: 2rem;
+
+        &-icon {
+            font-size: 4rem;
+            padding-left: 4rem;
+        }
+    
+        &-text {
+            padding-left: 3rem;
+            font-size: 2rem;
+            color: #fff
+            
+        }
+
+    }
+  
+
+}
+
+.top-contact {
+    font-size: 20px;
+    margin-top: 18rem;
+    margin-left: 3rem;
+    color: #fff;
+    @include respond(tab-port){
+        margin-top: 8rem
+     }
+    
+}
+
+.info-contact {
+    font-size: 30px;
+    margin-left: 3rem;
+    margin-bottom: 7rem;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold
+}
+
+
+
+form {
+    label {
+        text-transform: uppercase;
+        color: #111;
+        font-weight: bold;
+        @include respond(tab-port){
+            width: 100%
+         }
+    }
+    input {
+        padding: 10px 5px;
+        border: none;
+        margin-top: 10px;
+        margin-bottom: 15px;
+        @include respond(tab-port){
+           width: 100%
+        }
+    }
+    textarea {
+        border: none;
+        margin-top: 10px;
+        margin-bottom: 15px;
+        @include respond(tab-port){
+            width: 100%
+         }
+    }
+
+    input[type=submit] {
+        background:  $light-purple;
+        color: #fff;
+        transition: all 0.4s;
+        padding: 10px 17px;
+        border: none;
+        text-transform: uppercase;
+        border-radius: 3px;
+        text-decoration: none;
+        @include respond(tab-port){
+            width: 35%
+        }
+
+        &:hover {
+            background: $dark-purple;
+            color: #fff;
+            text-decoration: none;
+        }
+    }
+}

@@ -1,0 +1,105 @@
+/*
+--------------------------------------------------------------------------
+4.3 Video
+--------------------------------------------------------------------------
+*/
+main {
+    @include paddingSection;
+    position: relative;
+}
+
+.iframe-container {
+    position: relative;
+    z-index: 4;
+    width: 80rem;
+    height: 45rem;
+    margin-left: 18%;
+    margin-top: 8rem;
+    box-shadow: 0px 2px 29px -10px rgba(123,97,255,0.87);
+    @include respond(video){
+        margin-left: 5%;
+        width: 60rem;
+        height: 33.75rem;
+    }
+    @include respond(tab-port){
+        width: 70rem;
+        height: 39.37rem;
+        margin: 5rem auto
+    }
+    @include respond(laptop){
+        width: 53rem;
+        height: 30rem;;
+        margin: 5rem auto
+    }
+    @include respond(phone){
+        width: 100%;
+        margin: 5rem auto
+    }
+
+    iframe {
+        width: 100%;
+        height: 100%;
+    }
+    
+}
+
+
+.videosection_box {
+        margin-top:10rem;
+        
+
+        &--1 {
+            @include respond(tab-port){
+                margin-top: 5rem;
+                padding-bottom: 0rem;
+            }
+            background-color: $light-purple;
+            padding-bottom: 10rem;
+        }
+
+        &--2 {
+            padding-bottom: 4rem;
+            @include respond(tab-port){
+                margin-top: 2rem;
+                padding-bottom: 7rem
+            }
+        }
+}
+
+.sub-title {
+    font-size: 3.5rem;
+    font-weight: bold;
+    margin-left: 18%;
+    margin-top: 10%;
+    @include respond(tab-port){
+        margin-left: 2%
+    }
+
+    + span {
+        margin-left: 18%;
+        @include respond(tab-port){
+            margin-left: 2%;
+            margin-top: 1%;
+        }
+    }
+
+    ~ p {
+        margin-left: 18%;
+        padding-right: 5rem;
+        padding-bottom: 3rem;
+        @include respond(tab-port){
+            margin-left: 2%;
+            padding-bottom: 2rem
+        }
+        
+    }
+
+    ~ a {
+        margin-top: 3rem;
+        margin-left: 18%;
+        @include respond(tab-port){
+            margin-left: 2%
+        }
+    }
+
+}

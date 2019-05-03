@@ -1,0 +1,44 @@
+/*
+--------------------------------------------------------------------------
+3.7 Archive
+--------------------------------------------------------------------------
+*/
+.archive {
+
+    &__head{
+        padding: 3rem 3rem;
+        margin-bottom: 4rem;
+        margin-top: 4rem;
+        display: block;
+        border-left: 4px solid $dark-purple;
+        
+        h3{
+            font-size: 3rem;
+            text-transform: uppercase;
+            font-weight: bold
+        }
+    }
+
+    &__title {
+        font-weight: bold;
+        font-size: 2.3rem;
+        color: $dark-purple;
+        text-decoration: none
+    
+    }
+
+    &__date {
+        font-size: 1.3rem;
+        font-style: italic
+    }
+
+    &__left {
+        padding-bottom: 2rem
+    }
+
+    &__right {
+        a{
+            text-decoration: none
+        }
+    }
+}

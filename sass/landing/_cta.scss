@@ -1,0 +1,43 @@
+/*
+--------------------------------------------------------------------------
+4.4 Header
+--------------------------------------------------------------------------
+*/
+.cta {
+    height: 60rem;
+
+    .row {
+        height: 100%;
+    }
+
+    .inner {
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        min-height: inherit;
+    }
+
+    h2 {
+       
+        color: $dark-purple;
+        font-size: 4.5rem;
+        font-weight: bold;
+        margin-top: 1rem;
+    
+    
+    }
+
+    p {
+        width: 100%;
+        padding: 2.5rem 30rem 4rem 30rem;
+        font-size: 1.8rem;
+        color: #fff;
+        @include respond(tab-port){
+            padding: 5.5rem 3rem 4rem 3rem;
+        }
+    }
+
+}
+
+

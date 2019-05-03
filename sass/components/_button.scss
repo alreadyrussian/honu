@@ -1,0 +1,66 @@
+/* 
+--------------------------------------------------------------------------
+2.1 Button
+--------------------------------------------------------------------------
+ */
+
+.btn-custom {
+    background:  $light-purple;
+    color: #fff;
+    transition: all 0.4s;
+    border: none;
+    text-transform: uppercase;
+    border-radius: 3px;
+    text-decoration: none;
+
+    &:hover {
+        background: $dark-purple;
+        color: #fff;
+        text-decoration: none;
+    }
+
+    &--large {
+        padding: 2rem 3rem;
+        font-size: 2.5rem;
+        @include respond(tab-port){
+            padding-top: 1.5rem 2rem;
+            font-size: 1.8rem;
+        }
+    }
+
+    &--medium {
+        padding: 1.3rem 2.2rem;
+        font-size: 2rem;
+    }
+
+    
+}
+
+.btn-outline {
+    border: 3px solid $dark-purple;
+    background: rgba(255, 255, 255, 0);
+    color:  $dark-purple;
+    transition: all 0.4s;
+    text-transform: uppercase;
+    border-radius: 3px;
+    text-decoration: none;
+
+    &:hover {
+        background: $dark-purple;
+        color: #fff;
+        text-decoration: none;
+        border: 3px solid $dark-purple;
+    }
+
+    &--large {
+        padding: 2rem 3rem;
+        font-size: 2.5rem
+    }
+
+    &--medium {
+        padding: 1rem 2rem;
+        font-size: 2rem;
+    }
+
+
+}

@@ -1,0 +1,45 @@
+/*
+--------------------------------------------------------------------------
+2.6 Pagination
+--------------------------------------------------------------------------
+*/
+.pag__left, 
+.pag__right {
+    font-size: 1.6rem;
+    margin-top: 3rem;
+    text-transform: uppercase;
+}
+
+.pag__left a,
+.pag__right a {
+    display: inline-block;
+    height: 100%;
+    position: relative;
+    color: $light-purple;
+    text-decoration: none;
+    padding: 7px 11px;
+    border: 1px solid $light-purple;
+
+    &::before {
+        content: "";
+        display: inline-block;
+        width: 0%;
+        height: 100%;
+        background: $dark-purple;
+        position: absolute;
+        top: 0;
+        z-index: -1;
+        transition: all 0.5s;
+    }
+
+    &:hover:before {
+        width: 100%;
+    }
+}
+
+.pag__left a::before{
+    right:0
+}
+.pag__right a::before{
+    left:0
+}
