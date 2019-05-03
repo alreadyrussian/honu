@@ -56,6 +56,18 @@
         font-weight: bold;
         color: $dark-purple
     }
+
+    &__category {
+        display: inline-block;
+        font-size: 1.6rem
+    }
+    
+    &__full {
+        padding-bottom: 3rem;
+        p {
+            padding-bottom: 2rem;
+        }
+    }
 }
 
 

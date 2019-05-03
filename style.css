@@ -67,6 +67,30 @@ body {
   overflow-x: hidden;
   position: relative; }
 
+h1 {
+  font-size: 3.2rem;
+  word-break: break-all; }
+
+h2 {
+  font-size: 2.7rem;
+  word-break: break-all; }
+
+h3 {
+  font-size: 2.5rem;
+  word-break: break-all; }
+
+h4 {
+  font-size: 2.2rem;
+  word-break: break-all; }
+
+h5 {
+  font-size: 2rem;
+  word-break: break-all; }
+
+h6 {
+  font-size: 1.8rem;
+  word-break: break-all; }
+
 p {
   font-size: 1.8rem; }
 
@@ -79,8 +103,11 @@ a {
     text-decoration: none;
     color: #1C1341; }
 
-ul {
+ul, ol, table, dl, address {
   font-size: 1.8rem; }
+
+pre {
+  font-size: 1.6rem; }
 
 /* 
 --------------------------------------------------------------------------
@@ -95,7 +122,8 @@ ul {
   border: none;
   text-transform: uppercase;
   border-radius: 3px;
-  text-decoration: none; }
+  text-decoration: none;
+  display: inline-block; }
   .btn-custom:hover {
     background: #1C1341;
     color: #fff;
@@ -119,7 +147,8 @@ ul {
   transition: all 0.4s;
   text-transform: uppercase;
   border-radius: 3px;
-  text-decoration: none; }
+  text-decoration: none;
+  display: inline-block; }
   .btn-outline:hover {
     background: #1C1341;
     color: #fff;
@@ -294,6 +323,7 @@ ul.comment-list {
   -webkit-transition: all .4s;
   transition: all .4s;
   width: 50%;
+  padding: 1.2rem 1.7rem;
   margin: 0 -3.5rem 0 0; }
   .search-custom__input:focus {
     background: #dadada;
@@ -689,7 +719,17 @@ button:focus {
     font-style: italic; }
   .s-post__category {
     display: inline-block;
-    margin-left: 2rem; }
+    margin-left: 2rem;
+    font-size: 1.6rem;
+    font-weight: bold; }
+  .s-post__tags {
+    display: block;
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+    font-size: 1.6rem; }
+    .s-post__tags a {
+      font-weight: bold;
+      margin-left: 0.5rem; }
 
 /*
 --------------------------------------------------------------------------
@@ -737,6 +777,13 @@ button:focus {
     font-size: 1.3rem;
     font-weight: bold;
     color: #1C1341; }
+  .index__category {
+    display: inline-block;
+    font-size: 1.6rem; }
+  .index__full {
+    padding-bottom: 3rem; }
+    .index__full p {
+      padding-bottom: 2rem; }
 
 .aside {
   width: 20%;
@@ -820,6 +867,9 @@ button:focus {
 3.7 Archive
 --------------------------------------------------------------------------
 */
+.archive .row {
+  margin-bottom: 2.5rem; }
+
 .archive__head {
   padding: 3rem 3rem;
   margin-bottom: 4rem;
@@ -839,7 +889,9 @@ button:focus {
 
 .archive__date {
   font-size: 1.3rem;
-  font-style: italic; }
+  font-style: italic;
+  display: inline-block;
+  margin-bottom: 0.6rem; }
 
 .archive__left {
   padding-bottom: 2rem; }
@@ -1342,6 +1394,45 @@ ul.post-categories {
       padding-left: 3rem;
       font-size: 2rem;
       color: #fff; }
+  .contact form label {
+    text-transform: uppercase;
+    color: #111;
+    font-weight: bold; }
+    @media (max-width: 61.937em) {
+      .contact form label {
+        width: 100%; } }
+  .contact form input {
+    padding: 10px 5px;
+    border: none;
+    margin-top: 10px;
+    margin-bottom: 15px; }
+    @media (max-width: 61.937em) {
+      .contact form input {
+        width: 100%; } }
+  .contact form textarea {
+    border: none;
+    margin-top: 10px;
+    margin-bottom: 15px; }
+    @media (max-width: 61.937em) {
+      .contact form textarea {
+        width: 100%; } }
+  .contact form input[type=submit] {
+    background: #6E4BFE;
+    color: #fff;
+    -webkit-transition: all 0.4s;
+    transition: all 0.4s;
+    padding: 10px 17px;
+    border: none;
+    text-transform: uppercase;
+    border-radius: 3px;
+    text-decoration: none; }
+    @media (max-width: 61.937em) {
+      .contact form input[type=submit] {
+        width: 35%; } }
+    .contact form input[type=submit]:hover {
+      background: #1C1341;
+      color: #fff;
+      text-decoration: none; }
 
 .top-contact {
   font-size: 20px;
@@ -1359,49 +1450,6 @@ ul.post-categories {
   color: #fff;
   text-transform: uppercase;
   font-weight: bold; }
-
-form label {
-  text-transform: uppercase;
-  color: #111;
-  font-weight: bold; }
-  @media (max-width: 61.937em) {
-    form label {
-      width: 100%; } }
-
-form input {
-  padding: 10px 5px;
-  border: none;
-  margin-top: 10px;
-  margin-bottom: 15px; }
-  @media (max-width: 61.937em) {
-    form input {
-      width: 100%; } }
-
-form textarea {
-  border: none;
-  margin-top: 10px;
-  margin-bottom: 15px; }
-  @media (max-width: 61.937em) {
-    form textarea {
-      width: 100%; } }
-
-form input[type=submit] {
-  background: #6E4BFE;
-  color: #fff;
-  -webkit-transition: all 0.4s;
-  transition: all 0.4s;
-  padding: 10px 17px;
-  border: none;
-  text-transform: uppercase;
-  border-radius: 3px;
-  text-decoration: none; }
-  @media (max-width: 61.937em) {
-    form input[type=submit] {
-      width: 35%; } }
-  form input[type=submit]:hover {
-    background: #1C1341;
-    color: #fff;
-    text-decoration: none; }
 
 /*
 // Media Query

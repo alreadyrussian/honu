@@ -11,11 +11,7 @@ if(post_password_required()){
     return;
 }
 ?>
-
-
-
-
-            
+         
     <div class="container">
         <div class="row">
             <div class="col-xl-6 col-lg-7 col-sm-12">
@@ -48,12 +44,6 @@ if(post_password_required()){
                         get_the_title()
                         );
                     }
-                    //Dinamic title comment
-                    /* printf(
-                        esc_html( _nx('One comment on &ldquo; %2$s &rdquo;', '%1$s comments on &ldquo; %2$s &rdquo;', get_comments_number(), 'comments title', 'honu') ),
-                        number_format_i18n(get_comments_number()),
-                        '<span>' . get_the_title() . '</span>'
-                    ); */
                 ?>
                 </p>
 

@@ -63,6 +63,54 @@
         }
 
     }
+
+    form {
+        label {
+            text-transform: uppercase;
+            color: #111;
+            font-weight: bold;
+            @include respond(tab-port){
+                width: 100%
+             }
+        }
+        input {
+            padding: 10px 5px;
+            border: none;
+            margin-top: 10px;
+            margin-bottom: 15px;
+            @include respond(tab-port){
+               width: 100%
+            }
+        }
+        textarea {
+            border: none;
+            margin-top: 10px;
+            margin-bottom: 15px;
+            @include respond(tab-port){
+                width: 100%
+             }
+        }
+    
+        input[type=submit] {
+            background:  $light-purple;
+            color: #fff;
+            transition: all 0.4s;
+            padding: 10px 17px;
+            border: none;
+            text-transform: uppercase;
+            border-radius: 3px;
+            text-decoration: none;
+            @include respond(tab-port){
+                width: 35%
+            }
+    
+            &:hover {
+                background: $dark-purple;
+                color: #fff;
+                text-decoration: none;
+            }
+        }
+    }
   
 
 }
@@ -89,50 +137,3 @@
 
 
 
-form {
-    label {
-        text-transform: uppercase;
-        color: #111;
-        font-weight: bold;
-        @include respond(tab-port){
-            width: 100%
-         }
-    }
-    input {
-        padding: 10px 5px;
-        border: none;
-        margin-top: 10px;
-        margin-bottom: 15px;
-        @include respond(tab-port){
-           width: 100%
-        }
-    }
-    textarea {
-        border: none;
-        margin-top: 10px;
-        margin-bottom: 15px;
-        @include respond(tab-port){
-            width: 100%
-         }
-    }
-
-    input[type=submit] {
-        background:  $light-purple;
-        color: #fff;
-        transition: all 0.4s;
-        padding: 10px 17px;
-        border: none;
-        text-transform: uppercase;
-        border-radius: 3px;
-        text-decoration: none;
-        @include respond(tab-port){
-            width: 35%
-        }
-
-        &:hover {
-            background: $dark-purple;
-            color: #fff;
-            text-decoration: none;
-        }
-    }
-}

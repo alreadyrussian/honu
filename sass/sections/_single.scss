@@ -25,6 +25,23 @@
 
     &__category {
         display: inline-block;
-        margin-left: 2rem
+        margin-left: 2rem;
+        font-size: 1.6rem;
+        font-weight: bold;     
+    }
+
+    &__tags{
+        display: block;
+        margin-bottom: 2rem;
+        margin-top: 1rem;
+        font-size: 1.6rem;
+        
+
+        a {
+            font-weight: bold;
+            margin-left: 0.5rem
+        }
+
+        
     }
 }

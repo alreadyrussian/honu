@@ -12,10 +12,10 @@
                     <?php while ( have_posts() ) : the_post(); ?>
                     <article class="index">
                         <div class="row">
-                            <div class="col-lg-12 col-sm-12 index__right">
+                            <div class="col-lg-12 col-sm-12 index__full">
                                 <a href="<?php echo get_permalink(); ?>"><h2 class="index__title"><?php echo get_the_title(); ?></h2></a>
                                 <a class="index__date" ><?php echo get_the_date(); ?></a>
-                                <a class="index__category"><?php the_category(' '); ?></a>
+                                <span class="index__category"><?php the_category(', '); ?></span>
                                 <?php the_excerpt(); ?>
                             </div>
                         </div>

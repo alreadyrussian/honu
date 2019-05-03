@@ -7,6 +7,7 @@
                 $args = array(
                     'post_type' => 'post',
                     'posts_per_page' => 3,
+                    'ignore_sticky_posts' => true
                 );
                 $featured = new WP_Query($args);
                 if($featured -> have_posts()):

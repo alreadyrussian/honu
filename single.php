@@ -14,8 +14,8 @@ get_header();
                 ?>
                 <h1 class="s-post__title"><?php the_title(); ?></h1> 
                 <span class="s-post__date"><?php the_date(); ?></span> 
-                <span class="s-post__category"><?php the_category(); the_tags() ?> </span> 
-                <span class="s-post__category"><?php the_tags(); ?> </span> 
+                <span class="s-post__category"><?php the_category(', ');?> </span> 
+                <span class="s-post__tags"><?php the_tags(); ?> </span> 
                 <?php 
                 the_content();
                 wp_link_pages();

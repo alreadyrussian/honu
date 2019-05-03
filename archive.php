@@ -12,6 +12,7 @@
                 </span>
                     <?php if ( have_posts() ) : ?>
                     <?php while ( have_posts() ) : the_post(); ?>
+                    <?php if(has_post_thumbnail()) : ?>
                     <article>
                         <div class="row">
                             <div class="col-lg-4 col-sm-12 archive__left">
@@ -29,6 +30,19 @@
                         </div>
                     </article> 
                     <?php  
+                    else:
+                    ?>
+                    <article>
+                        <div class="row">
+                            <div class="col-lg-12 col-sm-12 archive__full">
+                                <a href="<?php echo get_permalink(); ?>"><h2 class="archive__title"><?php echo get_the_title(); ?></h2></a>
+                                <a class="archive__date" ><?php echo get_the_date(); ?></a>
+                                <?php the_excerpt(); ?>
+                            </div>
+                        </div>
+                    </article> 
+                    <?php 
+                    endif;
                     endwhile;
                     ?>
                     <div class="row pag">
