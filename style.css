@@ -106,7 +106,7 @@ a {
 ul, ol, table, dl, address {
   font-size: 1.8rem; }
 
-pre {
+pre, select {
   font-size: 1.6rem; }
 
 /* 
@@ -303,6 +303,10 @@ ul.comment-list {
     transition: width 0.4s ease-in-out; }
   .reply:hover:after {
     width: 100%; }
+
+.nocomments {
+  font-weight: bold;
+  text-decoration: underline; }
 
 /*
 --------------------------------------------------------------------------

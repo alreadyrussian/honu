@@ -26,11 +26,7 @@ get_header();
     </div>
 </div>
 
-<?php
-if (comments_open()):
-    comments_template();
-endif;
-?>
+<?php comments_template(); ?>
 <?php
 get_footer();
 ?>
