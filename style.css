@@ -109,6 +109,9 @@ ul, ol, table, dl, address {
 pre, select {
   font-size: 1.6rem; }
 
+figcaption {
+  font-size: 1.5rem; }
+
 /* 
 --------------------------------------------------------------------------
 2.1 Button
@@ -187,7 +190,10 @@ pre, select {
   font-weight: bold;
   color: #1C1341;
   text-align: center;
-  margin-top: 11rem; }
+  margin-top: 10rem; }
+  @media (max-width: 61.937em) {
+    .title {
+      margin-top: 8rem; } }
 
 .title + hr {
   width: 5rem;
@@ -931,7 +937,7 @@ button:focus {
   @media (max-width: 61.937em) {
     .hero {
       margin-top: 0rem;
-      height: 100vh; } }
+      height: 75vh; } }
   @media (max-width: 48em) and (orientation: landscape) {
     .hero {
       height: 120vh; } }
@@ -942,11 +948,11 @@ button:focus {
     font-size: 5rem; }
     @media (max-width: 61.937em) {
       .hero h1 {
-        padding-top: 3rem;
+        padding-top: 4rem;
         font-size: 3.5rem; } }
     @media (max-width: 37.5em) {
       .hero h1 {
-        padding-top: 2rem;
+        padding-top: 4rem;
         font-size: 3.5rem; } }
   .hero p {
     font-size: 2.4rem;
@@ -1093,7 +1099,7 @@ main {
   width: 80rem;
   height: 45rem;
   margin-left: 18%;
-  margin-top: 8rem;
+  margin-top: 5rem;
   -webkit-box-shadow: 0px 2px 29px -10px rgba(123, 97, 255, 0.87);
           box-shadow: 0px 2px 29px -10px rgba(123, 97, 255, 0.87); }
   @media (max-width: 100em) {
@@ -1120,7 +1126,7 @@ main {
     height: 100%; }
 
 .videosection_box {
-  margin-top: 10rem; }
+  margin-top: 5rem; }
   .videosection_box--1 {
     background-color: #6E4BFE;
     padding-bottom: 10rem; }
@@ -1170,7 +1176,13 @@ main {
 --------------------------------------------------------------------------
 */
 .cta {
-  height: 60rem; }
+  margin-top: 11rem;
+  height: 60rem;
+  border-top: 8px solid #1C1341;
+  border-bottom: 8px solid #1C1341; }
+  @media (max-width: 61.937em) {
+    .cta {
+      margin-top: 6rem; } }
   .cta .row {
     height: 100%; }
   .cta .inner {
@@ -1195,12 +1207,12 @@ main {
     margin-top: 1rem; }
   .cta p {
     width: 100%;
-    padding: 2.5rem 30rem 4rem 30rem;
+    padding: 2.5rem 45rem 4rem 45rem;
     font-size: 1.8rem;
     color: #fff; }
     @media (max-width: 61.937em) {
       .cta p {
-        padding: 5.5rem 3rem 4rem 3rem; } }
+        padding: 2rem 3rem 4rem 3rem; } }
 
 /*
 --------------------------------------------------------------------------
@@ -1212,7 +1224,7 @@ main {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  margin-top: 8rem;
+  margin-top: 5rem;
   margin-bottom: 15rem; }
   @media (max-width: 37.5em) {
     .reviews {
@@ -1291,11 +1303,11 @@ main {
 */
 .wrapper-news {
   background-image: linear-gradient(135deg, rgba(70, 17, 243, 0.61), #1C1341);
-  padding-bottom: 18rem;
+  padding-bottom: 12rem;
   padding-top: 1rem; }
 
 .news {
-  margin-top: 7rem; }
+  margin-top: 6rem; }
 
 .title-news {
   font-size: 4.5rem;

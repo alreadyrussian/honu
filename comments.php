@@ -17,11 +17,7 @@ if(post_password_required()){
         <div class="col-xl-6 col-lg-7 col-sm-12">
             <div id="comments" class="comments-area">
 
-                <?php
-                    if(have_comments()):
-                    // we have comments
-                ?>  
-
+                <?php if(have_comments()): // we have comments ?>  
                 <p class="comment-title">
                 <?php 
                     $comments_number = get_comments_number();
@@ -72,13 +68,9 @@ if(post_password_required()){
                         <p class="nocomments"><?php esc_html_e('Comments are now closed', 'honu') ?> </p>
                     <?php endif; ?>
                     <?php
-                    else : // no Comments
-                            if ( comments_open() ) : // Comments are open, but there are none yet
-                                // echo"<p>Be the first to write a comment.</p>";
-                            else : // comments are closed ?>
+                    else : // comments are closed ?>
                             <p class="nocomments"><?php esc_html_e('Comments are closed.', 'honu'); ?></p>
-                            <?php
-                            endif;
+                    <?php        
                     endif;
                     ?>
 

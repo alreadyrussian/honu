@@ -14,7 +14,7 @@ main {
     width: 80rem;
     height: 45rem;
     margin-left: 18%;
-    margin-top: 8rem;
+    margin-top: 5rem;
     box-shadow: 0px 2px 29px -10px rgba(123,97,255,0.87);
     @include respond(video){
         margin-left: 5%;
@@ -45,7 +45,7 @@ main {
 
 
 .videosection_box {
-        margin-top:10rem;
+        margin-top:5rem;
         
 
         &--1 {
