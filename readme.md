@@ -8,8 +8,8 @@
 -------------------------------------------------------
 
 
-To install the theme correctly follow the Official Video Documentation:
-https://www.honutheme.com
+To install the theme correctly follow the Official Documentation:
+https://www.honutheme.com (online very soon)
 
 
 -------------------------------------------------------
@@ -38,7 +38,7 @@ Honu use bootstrap grid, also use font awesome for the icons.
 -------------------------------------------------------
 
 
-Honu WordPress theme, Copyright (C) 2019 Gianluca 'allreadyRussian' Giarrusso
+Honu WordPress theme, Copyright (C) 2020 Gianluca 'allreadyRussian' Giarrusso
 Honu WordPress theme is licensed under the GPL.
 
 Twitter Bootstrap - http://getbootstrap.com/
@@ -53,7 +53,7 @@ Smooth Parallax - https://github.com/diegoversiani/smooth-parallax
 License: Licensed under MIT
 Copyright: Diego Versiani
 
-Wlow uses a modified version of Edward McIntyre’s wp_boot_strap_navwalker  - https://github.com/wp-bootstrap/wp-bootstrap-navwalker
+Honu uses a modified version of Edward McIntyre’s wp_boot_strap_navwalker  - https://github.com/wp-bootstrap/wp-bootstrap-navwalker
 License: GPL-3.0+
 Copyright: Edward McIntyre 
 
