@@ -4,7 +4,7 @@
     Thank you for downloading Honu Theme!
 -------------------------------------------------------
 -------------------------------------------------------
-   Installation:
+ ##  Installation:
 -------------------------------------------------------
 
 
@@ -13,7 +13,7 @@ https://www.honutheme.com (online very soon)
 
 
 -------------------------------------------------------
-    Features:
+ ##   Features:
 -------------------------------------------------------
 
 - Widgets
@@ -27,14 +27,14 @@ One menu on the top.
 
 
 -------------------------------------------------------
-    Framework:
+ ##   Framework:
 -------------------------------------------------------
 
 Honu use bootstrap grid, also use font awesome for the icons.
 
 
 -------------------------------------------------------
-    License:
+ ##   License:
 -------------------------------------------------------
 
 
@@ -67,7 +67,7 @@ Everything else used in this theme (including the screenshot.png) has been creat
 
 
 -------------------------------------------------------
-    Adopting Honu Theme (Theme Re-Distribution):
+##    Adopting Honu Theme (Theme Re-Distribution):
 -------------------------------------------------------
 
 It's GPL so yes you can base your Themes from Honu
